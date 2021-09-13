@@ -188,8 +188,8 @@ class FormBuilderFieldState<F extends FormBuilderField<T?>, T>
   }
 
   void requestFocus() {
-    FocusScope.of(context).requestFocus(effectiveFocusNode);
-    Scrollable.ensureVisible(context);
+    // FocusScope.of(context).requestFocus(effectiveFocusNode);
+    // Scrollable.ensureVisible(context);
   }
 
   void invalidate(String errorText) {
